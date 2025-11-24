@@ -9,22 +9,26 @@
 		"vscode": {
 			// 拡張機能のインストール
 			"extensions": [
-				"usernamehw.errorlens", // ErrorLens
-				"ms-python.python", // Python拡張機能
-				"charliermarsh.ruff" // Ruff拡張機能
+				"usernamehw.errorlens",
+				"esbenp.prettier-vscode"
 			],
 			// 拡張機能の設定
 			"settings": {
-				"notebook.formatOnSave.enabled": true,
-				"[python]": {
-					"editor.defaultFormatter": "charliermarsh.ruff",
-					"editor.codeActionsOnSave": {
-						"source.fixAll": true,
-						"source.organizeImports": true
-					},
-					"notebook.codeActionsOnSave": {
-						"notebook.source.fixAll": true
-					}
+				"[javascript]": {
+					"editor.formatOnSave": true,
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[javascriptreact]": {
+					"editor.formatOnSave": true,
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[typescript]": {
+					"editor.formatOnSave": true,
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				},
+				"[typescriptreact]": {
+					"editor.formatOnSave": true,
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
 				}
 			}
 		}

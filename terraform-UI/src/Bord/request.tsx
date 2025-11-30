@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://terraform-api:8000";
+// Viteプロキシ経由でAPIにアクセス
+const BASE_URL = "/api";
 
 async function fetchData(prefix: string = "", data: any = null) {
   try {

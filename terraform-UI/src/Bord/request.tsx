@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://192.168.11.8:8000";
+const BASE_URL = "http://terraform-api:8000";
 
 async function fetchData(prefix: string = "", data: any = null) {
   try {

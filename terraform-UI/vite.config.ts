@@ -15,5 +15,8 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
     },
+    allowedHosts: [
+      'proxmox-operation.togura-dev.com'
+    ]
   },
 });
